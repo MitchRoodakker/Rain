@@ -13,7 +13,7 @@ public class Game extends Canvas implements Runnable{
     private Thread thread;
     private JFrame frame;
     private boolean running = false;
-
+    
     public Game(){
         Dimension size = new Dimension(width *scale, height *scale);
         setPreferredSize(size);
